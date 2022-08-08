@@ -1,0 +1,21 @@
+{
+  "name": "iframe-isolation-testing",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "peerDependencies": {
+    "penpal": "^6.2.2"
+  },
+  "dependencies": {
+    "penpal": "^6.2.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3",
+    "jest-environment-jsdom": "^28.1.3",
+    "jsdom": "*",
+    "ts-jest": "^28.0.7",
+    "typescript": "^4.7.4"
+  }
+}
